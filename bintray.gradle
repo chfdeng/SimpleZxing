@@ -1,0 +1,10 @@
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'chfdeng' //bintray注册的用户名（不是邮箱）
+    groupId = 'org.zero'
+    artifactId = 'SimpleZXing' //项目名称
+    publishVersion = android.defaultConfig.versionName //版本号
+    desc = 'Android Qr code generation, bar code, qr code scanning package.' //项目描述。可空。
+    website = 'https://github.com/fengchuiyeluo/SimpleZxing' //项目地址，一般填github地址。可空。
+}

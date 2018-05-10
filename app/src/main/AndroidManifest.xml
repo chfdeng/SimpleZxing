@@ -11,6 +11,7 @@
     <uses-feature
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,7 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".zxing.DecodeActivity"/>
+        <activity android:name="com.zero.libzxing.core.DecodeActivity" />
     </application>
-
 </manifest>
